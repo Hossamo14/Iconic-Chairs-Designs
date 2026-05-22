@@ -1,0 +1,142 @@
+[
+    {
+        "id": 1,
+        "chairName": "The Acapulco Chair",
+        "designer": "Unknown / Mexican Design Collective",
+        "year": "1950s",
+        "textNote": "Originally created in Acapulco, Mexico, this chair became famous for its airy woven PVC cord structure and relaxed tropical aesthetic. Its open radial form provides comfort in hot climates while creating a striking sculptural silhouette."
+    },
+    {
+        "id": 2,
+        "chairName": "The Ball Chair",
+        "designer": "Eero Aarnio",
+        "year": 1963,
+        "textNote": "A futuristic fiberglass pod chair that feels like a room within a room. The Ball Chair became an icon of 1960s space-age design and pop culture through its bold geometry and immersive seating experience."
+    },
+    {
+        "id": 3,
+        "chairName": "The Barcelona Chair",
+        "designer": "Ludwig Mies van der Rohe & Lilly Reich",
+        "year": 1929,
+        "textNote": "Designed for the German Pavilion at the Barcelona International Exposition, the chair represents elegance through minimalism. Its stainless-steel frame and tufted leather cushions became symbols of luxury modernism."
+    },
+    {
+        "id": 4,
+        "chairName": "The Butterfly Chair",
+        "designer": "Antonio Bonet, Juan Kurchan & Jorge Ferrari-Hardoy",
+        "year": 1938,
+        "textNote": "Also known as the BKF Chair, this lightweight design combines a simple steel frame with a suspended leather sling seat. It became a defining piece of casual modern furniture."
+    },
+    {
+        "id": 5,
+        "chairName": "The Diamond Lounge Chair",
+        "designer": "Harry Bertoia",
+        "year": 1952,
+        "textNote": "Made from welded steel rods, the chair transforms industrial wire into delicate sculpture. Bertoia described it as mainly made of air, emphasizing transparency and lightness."
+    },
+    {
+        "id": 6,
+        "chairName": "The Eames LCW Chair",
+        "designer": "Charles & Ray Eames",
+        "year": 1945,
+        "textNote": "The Lounge Chair Wood was revolutionary for its molded plywood construction. Its ergonomic curves demonstrated how industrial techniques could create comfortable and affordable modern furniture."
+    },
+    {
+        "id": 7,
+        "chairName": "The Eames Lounge Chair",
+        "designer": "Charles & Ray Eames",
+        "year": 1956,
+        "textNote": "One of the most celebrated lounge chairs ever designed, combining molded plywood and premium leather. It was intended to feel like a well-worn baseball glove luxurious yet inviting."
+    },
+    {
+        "id": 8,
+        "chairName": "The Eames Molded Armchair",
+        "designer": "Charles & Ray Eames",
+        "year": 1950,
+        "textNote": "The first mass-produced plastic chair, designed for versatility and affordability. Its organic shell form influenced decades of furniture production and modern interior design."
+    },
+    {
+        "id": 9,
+        "chairName": "The Egg Chair",
+        "designer": "Arne Jacobsen",
+        "year": 1958,
+        "textNote": "Designed for the SAS Royal Hotel in Copenhagen, the Egg Chair surrounds the user with curved surfaces that create privacy and comfort. Its sculptural silhouette remains instantly recognizable."
+    },
+    {
+        "id": 10,
+        "chairName": "The Ghost Chair",
+        "designer": "Philippe Starck",
+        "year": 2002,
+        "textNote": "A transparent reinterpretation of the classical Louis XVI chair, made from polycarbonate. It blends historical references with modern manufacturing and contemporary minimalism."
+    },
+    {
+        "id": 11,
+        "chairName": "The Panton Chair",
+        "designer": "Verner Panton",
+        "year": 1960,
+        "textNote": "The first single-piece cantilevered plastic chair produced commercially. Its flowing curves and futuristic form made it a milestone in experimental furniture design."
+    },
+    {
+        "id": 12,
+        "chairName": "The Red-Blue Chair",
+        "designer": "Gerrit Rietveld",
+        "year": 1918,
+        "textNote": "A key work of the De Stijl movement, using geometric lines and primary colors to transform furniture into abstract art. It reflects the idea of reducing design to pure form and color."
+    },
+    {
+        "id": 13,
+        "chairName": "The Shell Chair",
+        "designer": "Hans J. Wegner",
+        "year": 1963,
+        "textNote": "Nicknamed the Smiling Chair, this design features a floating seat and wing-like curves. Its light appearance and advanced plywood construction showcase Danish craftsmanship."
+    },
+    {
+        "id": 14,
+        "chairName": "The Thonet 14 Chair",
+        "designer": "Michael Thonet",
+        "year": 1859,
+        "textNote": "Considered one of the first industrially manufactured chairs, using steam-bent wood technology. Its affordability and simplicity revolutionized furniture production worldwide."
+    },
+    {
+        "id": 15,
+        "chairName": "The Tulip Chair",
+        "designer": "Eero Saarinen",
+        "year": 1956,
+        "textNote": "Designed to eliminate the slum of legs under tables and chairs, the Tulip Chair uses a single pedestal base to achieve a clean and futuristic appearance."
+    },
+    {
+        "id": 16,
+        "chairName": "The Wassily Chair",
+        "designer": "Marcel Breuer",
+        "year": 1925,
+        "textNote": "Inspired by bicycle handlebars and tubular steel technology, this Bauhaus masterpiece redefined furniture construction with its exposed metal frame and minimalist form."
+    },
+    {
+        "id": 17,
+        "chairName": "The Wiggle Side Chair",
+        "designer": "Frank Gehry",
+        "year": 1972,
+        "textNote": "Made from layered corrugated cardboard, the chair challenged perceptions of inexpensive materials. Gehry transformed humble cardboard into a surprisingly strong sculptural object."
+    },
+    {
+        "id": 18,
+        "chairName": "The Wishbone Chair",
+        "designer": "Hans J. Wegner",
+        "year": 1949,
+        "textNote": "Famous for its Y-shaped backrest and woven paper-cord seat, the chair combines elegance, craftsmanship, and comfort in a timeless Danish modern form."
+    },
+    {
+        "id": 19,
+        "chairName": "The Womb Chair",
+        "designer": "Eero Saarinen",
+        "year": 1948,
+        "textNote": "Designed to allow people to curl up comfortably, the Womb Chair prioritizes relaxed posture and emotional comfort rather than formal sitting positions."
+    },
+    {
+        "id": 20,
+        "chairName": "The Zig Zag Chair",
+        "designer": "Gerrit Rietveld",
+        "year": 1934,
+        "textNote": "Constructed from four flat wooden planes arranged in a Z-shape, the chair explores balance, structure, and minimal material use while remaining visually striking."
+    }
+]
