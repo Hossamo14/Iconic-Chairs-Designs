@@ -19,6 +19,8 @@ let intervalId;
 let musicActive = false; 
 let cachedChairs = chairsData; // Populated instantly on load
 
+
+
 // 2. Wrap your image paths using Parcel's URL dependency syntax.
 // This tells Parcel: "Find these files, compile them, and give me their real output URLs."
 const chairsImges = [
@@ -43,6 +45,21 @@ const chairsImges = [
     { id: 19, title: "The Womb Chair", src: new URL("/chairs/The Womb Chair.png", import.meta.url).href },
     { id: 20, title: "The Zig Zag Chair", src: new URL("/chairs/The Zig Zag Chair.png", import.meta.url).href }
 ];
+
+
+// ... All your existing variables, arrays, and functions stay exactly the same ...
+
+// 1. Create a function to preload all your bundled images into memory
+function preloadChairImages() {
+    chairsImges.forEach((imgAsset) => {
+        const img = new Image();
+        img.src = imgAsset.src; // Forces the browser to download and cache it NOW
+    });
+    console.log("All chair images successfully preloaded!");
+}
+
+// 2. Call the preloader immediately when the script runs
+preloadChairImages();
 
 // Event Listeners
 generateBtn.onclick = displayRandomQuote;
