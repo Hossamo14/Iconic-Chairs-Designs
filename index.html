@@ -1,54 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Iconic-Chair-Designs</title>
-    <link rel="stylesheet" href="main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
+  <body>
+    <svg width="0" height="0" class="hidden">
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -960 960 960"
+        id="double-arrow"
+      >
+        <path
+          d="m242-200 200-280-200-280h98l200 280-200 280h-98Zm238 0 200-280-200-280h98l200 280-200 280h-98Z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -960 960 960"
+        id="music-on"
+      >
+        <path
+          d="M287-167q-47-47-47-113t47-113q47-47 113-47 23 0 42.5 5.5T480-418v-422h240v160H560v400q0 66-47 113t-113 47q-66 0-113-47Z"
+        ></path>
+      </symbol>
+      <symbol
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 -960 960 960"
+        id="music-off"
+      >
+        <path
+          d="M792-56 56-792l56-56 736 736-56 56ZM560-514l-80-80v-246h240v160H560v166ZM400-120q-66 0-113-47t-47-113q0-66 47-113t113-47q23 0 42.5 5.5T480-418v-62l80 80v120q0 66-47 113t-113 47Z"
+        ></path>
+      </symbol>
+    </svg>
     <h1>20 Most Iconic Chair Designs in Furniture Design History</h1>
     <div class="boxContainer">
-        <span class="chair-id">0</span>
-        <div class="chairName">Most Iconic Chair Designs</div>
-        <div class="imgContainer">
-            <img class="chairImg" src="/chairs/background.png" alt="">
-        </div>
-        <div>
-            <span class="author">.....</span>
-            <span class="year">....</span>
-        </div>
-        <p class="textNote">“Form follows function – that has been misunderstood. Form and function should be one,
-            joined in a spiritual union.” Frank Lloyd Wright
-        </p>
-        <div class="buttons">
-
-            <span class="iconContainer ">
-                <svg class="icon generate">
-                    <use href="sprite.svg#double-arrow"></use>
-                </svg>
-            </span>
-
-            <button class="auto">Auto Generate</button>
-            <button class="stop">Stop Generate</button>
-        </div>
+      <span class="chair-id">0</span>
+      <div class="chairName">Iconic Chair Designs</div>
+      <div class="imgContainer">
+        <img class="chairImg" src="/chairs/background.png" alt="" />
+      </div>
+      <div>
+        <span class="author">.....</span>
+        <span class="year">....</span>
+      </div>
+      <p class="textNote">
+        “Form follows function – that has been misunderstood. Form and function
+        should be one, joined in a spiritual union.” Frank Lloyd Wright
+      </p>
+      <div class="buttons">
         <span class="iconContainer">
-            <svg class="musicIcon">
-                <use href="sprite.svg#music-off"></use>
-            </svg>
+          <svg class="icon generate">
+            <use href="sprite.svg#double-arrow"></use>
+          </svg>
         </span>
 
-        <audio class="audio" src="/music-track.mp3"></audio>
+        <button class="auto">Auto Generate</button>
+        <button class="stop">Stop Generate</button>
+      </div>
+      <span class="iconContainer">
+        <svg class="musicIcon" width="24" height="24">
+          <use href="#music-on"></use>
+        </svg>
+      </span>
+
+      <audio class="audio" src="/music-track.mp3"></audio>
     </div>
     <div class="auto-status"></div>
-    <script src="main.js"></script>
-</body>
-
+    <script type="module" src="index.js"></script>
+  </body>
 </html>
